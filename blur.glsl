@@ -5,11 +5,13 @@
 #pragma shaderfilter set amount__default 2
 #pragma shaderfilter set amount__min 0
 #pragma shaderfilter set amount__max 8
+#pragma shaderfilter set amount__slider true
 
 #pragma shaderfilter set multiplier__description Multiplier
-#pragma shaderfilter set multiplier__default 1.0
+#pragma shaderfilter set multiplier__default 5.0
 #pragma shaderfilter set multiplier__min 1.0
 #pragma shaderfilter set multiplier__max 20.0
+#pragma shaderfilter set multiplier__slider true
 
 uniform int amount;
 uniform float multiplier;
