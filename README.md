@@ -1,7 +1,7 @@
 # obs-shaders
 Shaders for ShaderFilter-Plus plugin for OBS.
 
-### Blur with mask (for logotype
+### Blur with mask (for removing logo)
 ![Blur with mask](https://user-images.githubusercontent.com/4954109/128090132-358ec636-571d-444a-95f5-1cac02444d2f.png)
 
 ### Chromatic Aberration
