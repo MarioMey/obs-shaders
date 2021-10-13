@@ -27,3 +27,12 @@ Shaders for ShaderFilter-Plus plugin for OBS.
 
 ### Lens Distorsion
 ![Lens Distorsion](https://user-images.githubusercontent.com/4954109/122506887-99c8f600-cfd5-11eb-833e-da436e4e6da9.png)
+
+### Blend modes
+I made a little shader that can mix images with different blend modes: Add, Screen, Multiply, Substract, Divide, ColorDodge, LinearDodge, ColorBurn and LinearBurn. You have to create a nested scene with both images to blend, one beside the other, like this:
+![Before](https://user-images.githubusercontent.com/4954109/137130258-2d762ae3-6da3-4eb7-9fb9-acfe25062b48.png)
+
+... and voilá, you have something like:
+![After](https://user-images.githubusercontent.com/4954109/137130038-514d2f0c-0a21-441a-b509-7300d3b92dbe.png)
+
+Yes, you loose the half of width quality... but it's ok 🤷.
